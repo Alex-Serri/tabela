@@ -1,0 +1,27 @@
+table, th, td {
+    border: 1px solid purple;
+    border-collapse: collapse;
+}
+
+body {
+    display: grid;
+    place-items: center;
+}
+
+th, td{
+    padding: 5px 10px;
+}
+
+th{
+    background-color: lightblue;
+    color: black;
+}
+
+td{
+    background-color: lightgreen;
+    color: #000;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
